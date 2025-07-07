@@ -1,11 +1,16 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	fmt.Println("Good afternoon")
+	NUM := 1
+	Num := 2
+	num_01 := 3
+	// 01num := 4
 
-	fmt.Println("Good evening")
-
-	fmt.Println("Good morning")
+	fmt.Println(NUM)
+	fmt.Println(Num)
+	fmt.Println(num_01)
 }
