@@ -5,12 +5,9 @@ import (
 )
 
 func main() {
-	NUM := 1
-	Num := 2
-	num_01 := 3
-	// 01num := 4
+	x := 10
+	y := 2
 
-	fmt.Println(NUM)
-	fmt.Println(Num)
-	fmt.Println(num_01)
+	fmt.Println(x == y)
+	fmt.Println(x != y)
 }
