@@ -1,13 +1,11 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	x := 10
-	y := 2
-
-	fmt.Println(x == y)
-	fmt.Println(x != y)
+	for i := 0; i <= 2; i++ {
+		for j := 0; j <= 2; j++ {
+			fmt.Println(i, "_", j)
+		}
+	}
 }
