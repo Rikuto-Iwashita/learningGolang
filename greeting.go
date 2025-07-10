@@ -2,10 +2,12 @@ package main
 
 import "fmt"
 
+func cal(x int, y int) (r int) {
+	r = x + y
+	return
+}
+
 func main() {
-	for i := 0; i <= 2; i++ {
-		for j := 0; j <= 2; j++ {
-			fmt.Println(i, "_", j)
-		}
-	}
+	result := cal(10, 5)
+	fmt.Println(result)
 }
