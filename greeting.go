@@ -2,12 +2,17 @@ package main
 
 import "fmt"
 
-func cal(x int, y int) (r int) {
-	r = x + y
-	return
+type User struct {
+	gender string
+	age    int
 }
 
 func main() {
-	result := cal(10, 5)
-	fmt.Println(result)
+	// var a User
+	// a.gender = "male"
+	// a.age = 20
+
+	b := User{gender: "male", age: 20}
+
+	fmt.Println(b)
 }
