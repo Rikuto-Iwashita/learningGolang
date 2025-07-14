@@ -32,4 +32,6 @@ func main() {
 	result := a001.judge(avg)
 	fmt.Println(avg)
 	fmt.Println(a001.name + " " + result)
+	fmt.Println("hello world")
+	fmt.Println("OSを変更します")
 }
