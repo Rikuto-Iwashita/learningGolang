@@ -34,4 +34,6 @@ func main() {
 	fmt.Println(a001.name + " " + result)
 	fmt.Println("hello world")
 	fmt.Println("OSを変更します")
+	fmt.Println("happiness chain")
+	fmt.Println("Golang")
 }
