@@ -36,4 +36,5 @@ func main() {
 	fmt.Println("OSを変更します")
 	fmt.Println("happiness chain")
 	fmt.Println("Golang")
+	fmt.Println("今日設定を完了させる")
 }
